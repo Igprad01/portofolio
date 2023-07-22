@@ -1,0 +1,289 @@
+/* Common styles for all screen sizes */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-title-nav {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 0 50px;
+}
+
+
+
+.list-nav {
+    margin: 0 120px 0 0;
+}
+
+.hero {
+    margin: 7rem 0 0 0;
+}
+
+.h1-hero {
+    font-weight: bold;
+}
+
+.p-hero {
+    margin: 2rem 0 0 0;
+}
+
+.image-hero {
+    height: 12%;
+    width: 12%;
+}
+
+#about {
+    background-color:#ededed;
+    margin: 12rem 0 0 0;
+    padding-bottom: 10rem;
+}
+
+.container-intro {
+    margin: 10rem 0 0 0;
+}
+
+.p-about {
+    padding: 0 13.5rem 0 13.5rem;
+    font-size: 25px;
+}
+
+.h1-about {
+    margin: 5rem 0 0 0;
+}
+
+.portofolio {
+    margin: 10rem 0 0 0;
+}
+
+.p-porto {
+    padding: 0 25rem 0 25rem;
+    margin: 1rem 0 4rem 0;
+}
+
+.container-porto {
+    padding: 0 10rem 0 10rem;
+    margin: 0 0 1rem 0;
+}
+
+.container-porto-2 {
+    padding: 0 10rem 0 10rem;
+    margin: 0 0 4rem 0;
+}
+
+.testimonial {
+    background-color: #ebf3fc;
+    margin: 0 0 5rem 0;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.p-testi {
+    padding: 0 18rem 0 18rem;
+    font-size: 20px;
+}
+
+.box {
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+    margin: 2rem 2.8rem 0 2rem;
+    position: relative;
+}
+
+.deskripsi {
+    text-align: justify;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 15px;
+}
+
+.author {
+    display: block;
+    margin: 0.5rem 0 0 4rem;
+}
+
+.detail-author {
+    display: flex;
+    margin: 1rem 0 0 0;
+}
+
+.title-author {
+    margin: -1.2rem 0 0 4.7rem;
+}
+
+.collab {
+    margin: 4rem 0 0 0;
+}
+
+.text-contact {
+    padding: 0 27rem 0 27rem;
+}
+
+/* Media Queries for Tablet and Mobile Devices */
+@media screen and (max-width: 1024px) {
+    /* Adjust navigation styles for tablet and smaller devices */
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .navbar-brand {
+        margin: 1rem 0;
+    }
+
+    .list-nav {
+        margin: 0;
+    }
+
+    .nav-link {
+        margin: 0.5rem 0;
+    }
+
+    /* Adjust hero section styles for tablet and smaller devices */
+    .hero {
+        margin: 4rem 0;
+        text-align: center;
+    }
+
+    .h1-hero {
+        font-size: 36px;
+    }
+
+    .p-hero {
+        font-size: 18px;
+    }
+
+    .image-hero {
+        height: 200px;
+        width: 200px;
+    }
+
+    /* Adjust about section styles for tablet and smaller devices */
+    #about {
+        padding-bottom: 5rem;
+    }
+
+    .p-about {
+        padding: 0;
+    }
+
+    /* Adjust portfolio section styles for tablet and smaller devices */
+    .p-porto {
+        padding: 0 3.5rem 0 3.5rem;
+    }
+
+    .container-porto,
+    .container-porto-2 {
+        padding: 0;
+    }
+
+    /* Adjust testimonial section styles for tablet and smaller devices */
+    .p-testi {
+        padding: 0;
+    }
+
+    .box {
+        margin: 1rem 0;
+    }
+
+    /* Adjust contact section styles for tablet and smaller devices */
+    .text-contact {
+        padding: 0;
+    }
+
+    /* Adjust footer section styles for tablet and smaller devices */
+    .footer {
+        padding: 2rem;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .card {
+        margin: 0 0 0 2.8rem;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust hero section styles for mobile devices */
+    .h1-hero {
+        font-size: 28px;
+    }
+
+    .p-hero {
+        font-size: 16px;
+    }
+
+    .image-hero {
+        height: 150px;
+        width: 150px;
+    }
+
+    /* Adjust about section styles for mobile devices */
+    .p-about {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    /* Adjust portfolio section styles for mobile devices */
+    .p-porto {
+        padding: 0 3rem 0 3rem;
+        font-size: 16px;
+    }
+
+    /* Adjust testimonial section styles for mobile devices */
+    .p-testi {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .box {
+        margin: 1rem 0;
+    }
+
+    /* Adjust contact section styles for mobile devices */
+    .text-contact {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    /* Adjust footer section styles for mobile devices */
+    .footer {
+        padding: 1rem;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .name {
+        font-size: 15px;
+    }
+
+    .testimonial {
+        padding: 2rem 0 0 0;
+    }
+
+    .deskripsi {
+        font-size: 20px;
+    }
+
+   .card-init {
+    padding: 1rem 2rem 1rem 0;
+   }
+
+   .card {
+    margin: 2rem 1.5rem 0 1.5rem;
+   }
+
+   .navbar-brand {
+    margin: 0 0 0 -2.8rem;
+   }
+
+   .pagination {
+    padding: 0 0 1.5rem 0;
+   }
+}
